@@ -24,9 +24,14 @@ export default defineNuxtConfig({
       }
     }
   },
+  /** 
   nitro:{
     prerender:{
       failOnError: false
     }
+  },
+  **/
+  routeRules:{
+    '/': {prerender: false}
   }
 })
