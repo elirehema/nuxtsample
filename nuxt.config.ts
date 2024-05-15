@@ -23,5 +23,10 @@ export default defineNuxtConfig({
         transformAssetUrls
       }
     }
+  },
+  nitro:{
+    prerender:{
+      failOnError: false
+    }
   }
 })
